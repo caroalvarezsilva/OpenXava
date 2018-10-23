@@ -78,12 +78,12 @@ else {
 	<%
 	}
 	%>
-	<option value="<%=Tab.EQ_COMPARATOR%>" <%=eq%>>=</option>
-	<option value="<%=Tab.NE_COMPARATOR%>" <%=ne%>><></option>
-	<option value="<%=Tab.GE_COMPARATOR%>" <%=ge%>>>=</option>
-	<option value="<%=Tab.LE_COMPARATOR%>" <%=le%>><=</option>	
-	<option value="<%=Tab.GT_COMPARATOR%>" <%=gt%>>></option>
-	<option value="<%=Tab.LT_COMPARATOR%>" <%=lt%>><</option>
+	<option value="<%=Tab.EQ_COMPARATOR%>" <%=eq%>>igual</option>
+	<option value="<%=Tab.NE_COMPARATOR%>" <%=ne%>>diferente</option>
+	<option value="<%=Tab.GE_COMPARATOR%>" <%=ge%>>mayor igual</option>
+	<option value="<%=Tab.LE_COMPARATOR%>" <%=le%>>menor igual</option>	
+	<option value="<%=Tab.GT_COMPARATOR%>" <%=gt%>>mayor</option>
+	<option value="<%=Tab.LT_COMPARATOR%>" <%=lt%>>menor</option>
 	
 	<%
 	if (isDate) {
